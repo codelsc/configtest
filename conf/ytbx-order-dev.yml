@@ -1,0 +1,9 @@
+env:
+  dev
+server:
+  port: 8002
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:yitongbx@47.93.182.131:2181/eureka
