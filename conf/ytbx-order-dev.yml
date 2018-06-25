@@ -7,3 +7,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://root:yitongbx@47.93.182.131:2181/eureka
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
